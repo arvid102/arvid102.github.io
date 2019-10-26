@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Batars.net</title>
+<link rel="icon" href="http://batars.net/s1200.jpg" type="image/x-icon">
+
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="jquery.countdown.css">
+<META HTTP-EQUIV="REFRESH" CONTENT="2;batars.html">
+<style type="text/css">
+body,td,th {
+    font-family: Source Code Pro,Courier New,Courier,monospace;
+    font-weight: 500;
+    font-size: 100%;
+    text-align:center;
+    background-color: #000;
+    color: #fff;
+}
+footer {
+    margin-top:300px;
+    bottom: 15px;
+    right: 15px;
+    left: 15px;
+    z-index: 20;
+}
+footer .footer-links {
+    text-align:center;
+}
+footer .footer-links a,footer .footer-links span {
+    cursor:pointer;
+    color:#666;
+    font-size:7px;
+    margin-right:6px;
+}
+footer .footer-links a:hover,footer .footer-links span:hover {
+    color:#fff;
+}
+footer .nbc-copy {
+    margin-top:3px;
+    text-align:center;
+    color:#555;
+    font-size:7px;
+}
+footer .nbc-copy:hover {
+    color:#fff;
+}
+p.large {
+    font-size: 20px;
+    color: #00ff00;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#defaultCountdown {
+    color: #000;
+}
+@media screen and (min-width:32em) {
+    footer {
+        text-align:center;
+    }
+    footer .footer-links,footer .nbc-copy {
+        display:inline-block;
+    }
+    footer .footer-links span a,footer .nbc-copy {
+        font-size:10px
+    }
+    footer:before {
+        content:'';
+        height:32px;
+        left:0;
+        right:0;
+        top:0;
+        z-index:-1;
+    }
+}
+@media screen and (min-width:64em) {
+    footer {
+        float:right;
+    }
+}
+#defaultCountdown { width: 50%; height: 9vw; }
+#defaultCountdown .countdown-row {
+    font-size: 3vw;
+}
+@media screen and (min-width:1200px) {
+    #defaultCountdown { width: 570px; height: 110px; }
+    #defaultCountdown .countdown-row {
+        font-size: 36px;
+    }
+}
+.over {
+    position: relative;
+    background-color: black;
+    padding: 20px;
+    padding-bottom: 50px;
+    text-align: left;
+    color:white;
+}
+
+@media screen and (max-width:530px) {
+    #defaultCountdown { width: 90%; }
+}
+</style>
+<script>
+function timer(time, domain) {
+  var timer = setInterval(function() {
+    if(time =< 0) {
+      clearInterval(timer);
+      document.location = domain;
+    } else {
+      time--;
+    }
+  }, time)
+}
+
+window.onload = function() {
+  timer(5, "http://batars.html");
+}</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="jquery.plugin.js"></script>
+<script src="jquery.countdown.js"></script>
+<script src="//assets.adobedtm.com/5ed6cf59538a2045d9fe4799a3f70da302c83d5a/satelliteLib-24e397569ca85a58d3963043838c6696e85c5e9a.js"></script>
+
+</head>
+<body >
+<p><img src="http://i239.bxjyb2jvda.net/img/mask.gif" style="width:90%;max-width:600px; " border="0" /></p>
+
+
+
+
+</body>
+</html>
