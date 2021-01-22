@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: url("Background.png") no-repeat scroll;
+  background-size: 100%;
+  overflow-x:hidden;
+}
+
+p {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 0px 120px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 35px;
+}
+
+h2 {
+     text-align: center; font-size: 30px;
+}
+
+
+pre {
+    padding: 10px 460px;
+}
+
+
+
+#about {
+    margin-top: inherit;
+
+}
+
+.effects {
+  background: url(effect4.gif) no-repeat center;
+  background-size: 10%;
+}
+
+.skillContainer {
+  width: 80%;
+  height: 50%;
+  margin-left:120px;
+  background-color: #ccc;
+}
+
+.skills {
+  text-align: right;
+  line-height: 15px;
+  color: white;
+}
+
+.html {width: 90%; background-color:  rgb(70,70,70);}
+.css {width: 80%; background-color:   rgb(70,70,70);}
+.js {width: 65%; background-color:  rgb(70,70,70);}
+.cplusplus {width: 75%; background-color:  rgb(70,70,70);}
+.mysql {width: 75%; background-color: rgb(70,70,70);}
+.python {width: 55%; background-color:  rgb(70,70,70);}
+
+
+.col-container {
+  display: table;
+   width: 100%;
+}
+
+.col{ 
+   display: table-cell;
+   margin: 0px 70px;
+   padding: 0px;
+  }
+
+.photo {
+  border-radius: 25px;
+  background: url("photo.png");
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 10px 15px; 
+  display: block;
+  width: 190px;
+  height: 183px;
+  margin: 10px 80px;
+} 
+
+/* Footer */
+.footer {
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: gray;
+    text-align: left;
+    font-size: 12px;
+ /* 
+
+    padding: 5px;
+    text-align: center;
+    background: #ddd;
+    bottom: 0;
+    margin: 120px 0px;
+    font-size: 12px;
+    background-color: black;
+    color: gray;*/  
+}
+
+.contact {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1;
+  overflow: hidden;
+  background-color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px; 
+}
+
+li  {
+  float: right;
+}
+
+li.logo {
+  display: block;
+  float: left;
+  color: white;
+  text-align: center;
+  margin: 0;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
